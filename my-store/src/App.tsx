@@ -19,7 +19,6 @@ const App: React.FC = () => {
           shoppingCartId: item.id
         };
       })
-      console.log('formattedData:', formattedData);
       setCartItems(formattedData);
     }).catch(error => {
       console.error('Error fetching cart items:', error);
