@@ -1,0 +1,51 @@
+.storefront {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.storefront h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.storefront table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.storefront table, .storefront th, .storefront td {
+  border: 1px solid #ddd;
+}
+
+.storefront th, .storefront td {
+  padding: 8px;
+  text-align: center;
+}
+
+.storefront th {
+  background-color: #f4f4f4;
+}
+
+.storefront tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.storefront tr:hover {
+  background-color: #f1f1f1;
+}
+
+.storefront button {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.storefront button:hover {
+  background-color: #0056b3;
+}
